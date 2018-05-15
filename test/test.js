@@ -1,9 +1,9 @@
 const should = require('chai').should;
-const index = require('../index');
+const index = require('../app');
 
-describe('index', function() {
-  it('index should return please complete quiz', function() {
-    should.equal(index(), 'please complete quiz');
+describe('app', function() {
+  it('Should return Hello', function() {
+    should.equal(app(), 'Hello');
   });
 //should return selected (bold) when image is clicked
 
