@@ -1,14 +1,3 @@
-// var answers = ["NY","NY","NY","NY"],
-//     tot = answers.length;
-//
-// function getCheckedValue( radioName ){
-//     let radios = document.getElementsByName( radioName ); // Get radio group by-name
-//     for(var y=0; y<radios.length; y++)
-//       if(radios[y].checked) {
-//       return radios[y].value; // return the checked value
-//     }
-// }
-//
 // function getScore(){
 //   var score = 0;
 //   for (var i=0; i<tot; i++)
@@ -43,7 +32,7 @@ return array;
 function checkArrayLength(array){
   let pickedArray = getRadioValue(array);
   if (pickedArray.length < 4) {
-    return "Please complete quiz."
+    return "System need all sections anwsered. Please complete quiz."
   } else {
     return largestCount(pickedArray);
   }
@@ -81,8 +70,25 @@ function largestCount(object){
   }
 
   if (cityMostClicked === undefined) {
-    return "Please complete quiz."
+    return "System need all sections anwsered. Please complete quiz."
   } else {
     return "You should visit " + cityMostClicked + ".";
   }
 }
+
+  //google search flights & hotels
+(function() {
+  var cx = '014638102533477823949:vpgpc-lujag';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();
+
+
+// //storing result
+// localStorage.setItem('favoriteflavor','vanilla');
+// var taste = localStorage.getItem('favoriteflavor');
+// // -> "vanilla"

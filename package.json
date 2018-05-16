@@ -11,6 +11,7 @@
         "theme",
         "template"
     ],
+    "scripts": {"test": "mocha"},
     "homepage": "https://startbootstrap.com/template-overviews/round-about",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-round-about/issues",
