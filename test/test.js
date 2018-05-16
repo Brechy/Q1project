@@ -1,10 +1,15 @@
-const should = require('chai').should;
-const index = require('../index');
-
+var assert = require('chai').assert;
+var index = require('../index');
+console.log(index);
 describe('index', function() {
-  it('index should return please complete quiz', function() {
-    should.equal(index(), 'please complete quiz');
+  it('should log hello to the console', function() {
+    // assert.equal(index(), 'hello');
   });
+
+  // it('Should return a zero for empty array ', function() {
+  //   assert.equal(_.first([]), 0);
+  // });
+
 //should return selected (bold) when image is clicked
 
 //should animate on image mouseover

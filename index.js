@@ -12,6 +12,7 @@
 //   alert("Your score is "+ getScore() +"/"+ tot);
 //
 
+console.log('hello');
 
 // GET OUTPUT
 //Gather all clicked data and put into Array
@@ -75,6 +76,8 @@ function largestCount(object){
     return "You should visit " + cityMostClicked + ".";
   }
 }
+
+//function to redirect someone to new website upon button click
 
   //google search flights & hotels
 (function() {
