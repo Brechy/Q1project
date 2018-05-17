@@ -11,8 +11,7 @@
 // function returnScore(){
 //   alert("Your score is "+ getScore() +"/"+ tot);
 //
-
-console.log('hello');
+/
 
 // GET OUTPUT
 //Gather all clicked data and put into Array

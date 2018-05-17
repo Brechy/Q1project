@@ -11,7 +11,9 @@
         "theme",
         "template"
     ],
-    "scripts": {"test": "mocha"},
+    "scripts": {
+        "test": "mocha"
+    },
     "homepage": "https://startbootstrap.com/template-overviews/round-about",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-round-about/issues",
@@ -32,6 +34,7 @@
     },
     "devDependencies": {
         "browser-sync": "2.24.3",
-        "gulp": "^3.9.1"
+        "gulp": "^3.9.1",
+        "zombie": "^6.1.2"
     }
 }
