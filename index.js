@@ -1,19 +1,4 @@
-// function getScore(){
-//   var score = 0;
-//   for (var i=0; i<tot; i++)
-//     if(getCheckedValue("question"+i)===answers[i]){
-//       console.log(getCheckedValue("question"+i))
-//       score += 1; // increment only
-//     }
-//   return score;
-// }
-//
-// function returnScore(){
-//   alert("Your score is "+ getScore() +"/"+ tot);
-//
-/
-
-// GET OUTPUT
+// GET OUTPUT FROM QUIZ
 //Gather all clicked data and put into Array
 function getRadioValue(name) {
 let array = []
@@ -76,8 +61,6 @@ function largestCount(object){
   }
 }
 
-//function to redirect someone to new website upon button click
-
   //google search flights & hotels
 (function() {
   var cx = '014638102533477823949:vpgpc-lujag';
@@ -88,9 +71,3 @@ function largestCount(object){
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(gcse, s);
 })();
-
-
-// //storing result
-// localStorage.setItem('favoriteflavor','vanilla');
-// var taste = localStorage.getItem('favoriteflavor');
-// // -> "vanilla"
